@@ -47,6 +47,15 @@ body{
     position: relative;
 }
 
+.purple-bg{
+    background-color:purple ;
+} 
+
+/* da cambiare */
+
+.black-bg{
+    background-color: black;
+}
 
 
 
@@ -100,8 +109,8 @@ body{
     background-color: white;
     color: black;
 }
-.btn-black{
-    background-color:black;
+.btn-dark{
+    /* background-color:black; */
     color: white; 
 }
 
@@ -144,22 +153,22 @@ section{
 section img{
     width: 100%;
 }
-#section1{
-    margin: 150px 0; 
+#section1,#section2,#section3{
+    margin: 100px 0; 
 }
 
-.content-section1, .content-section2 .content-section3{
+.content-section1, .content-section2 .content-section3.content-section4{
     margin-top: 30px; 
     width: 300px;
          
 }
 
-.content-section1 p, .content-section2 p, .content-section3 p {
+.content-section1 p, .content-section2 p, .content-section3 p, .content-section4 p {
     padding-top:20px; 
     line-height: 25px
 }
 
-.content-section1 h2, .content-section2 h2 ,.content-section3 h2{
+.content-section1 h2, .content-section2 h2 ,.content-section3 h2, .content-section4 h2{
     font-size:2.5rem; 
 }
 
@@ -169,6 +178,16 @@ section img{
 
 .content-image3 {
     margin-right:100px; 
+}
+
+
+.bottom-download{
+    height:50px; 
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 50px;
 }
 
 
