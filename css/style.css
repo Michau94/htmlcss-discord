@@ -208,15 +208,21 @@ footer {
     margin-top: 50px;
 }
 
+.footer-top .col h4{
+    font-size: 1.3rem;
+    color:#ADC3FF; 
+}
+.footer-top .col:first-child h4{
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+
 .footer-top .col:first-child {
     width: 40%;
 }
 
 .footer-top .col{
     width:calc(60%/4);
-}
-.col{
-    /* border: 1px solid red; */
 }
 
 .footer-top .col .content ul{
@@ -244,6 +250,20 @@ footer {
    display: inline-block;
     position: absolute;
     right:20px;
+}
+
+#flag{
+    height: 10px;
+    width: auto;
+}
+
+.lang{
+    margin-bottom:20px ;
+}
+
+.social a {
+    padding-right:15px;  
+
 }
 
 
