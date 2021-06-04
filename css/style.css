@@ -159,7 +159,6 @@ body{
 }
 
 .waves1{
-    display: block;
     height:50px;
     background-image: url(../img/wave.svg);
     filter:invert(90%);
@@ -173,6 +172,9 @@ body{
 
 #section2, #section4{
     background-color:#E5E5E5;
+}
+#section4{
+    height: 900px;
 }
 
 
@@ -212,7 +214,7 @@ section img, .bottom-logo img{
 }
 
 
-.bottom-download{
+.content-section4 .bottom-download{
     height:50px; 
     background-image: url(../img/stars.svg);
     background-size: contain;
@@ -228,7 +230,7 @@ section img, .bottom-logo img{
 footer {
     height: 500px; 
     background-color: #23272A ;
-    margin-top:100px; 
+    
     color: blanchedalmond;
 
 }
