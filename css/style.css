@@ -21,6 +21,10 @@ body{
     width: 60%;
 }
 
+.w-40{
+    width: 40%;
+}
+
 .clearfix::after{
     content: '';
     display: table;
@@ -37,6 +41,10 @@ body{
 
 .text-white{
     color: white;
+}
+
+.relative{
+    position: relative;
 }
 
 
@@ -125,3 +133,56 @@ body{
 .content-jumbo :last-child {
     margin-left:20px; 
 }
+
+
+
+/* MAIN */
+section{
+    height:600px; 
+}
+
+section img{
+    width: 100%;
+}
+#section1{
+    margin: 150px 0; 
+}
+
+.content-section1, .content-section2 .content-section3{
+    margin-top: 30px; 
+    width: 300px;
+         
+}
+
+.content-section1 p, .content-section2 p, .content-section3 p {
+    padding-top:20px; 
+    line-height: 25px
+}
+
+.content-section1 h2, .content-section2 h2 ,.content-section3 h2{
+    font-size:2.5rem; 
+}
+
+.content-image{
+    padding-right: 100px; 
+}
+
+.content-image3 {
+    margin-right:100px; 
+}
+
+
+
+
+
+
+
+
+  
+    
+
+
+
+
+
+
