@@ -147,7 +147,34 @@ body{
     margin-left:20px; 
 }
 
+/* WAVES */
+.waves{
+    display: block;
+    height:50px;
+    background-image: url(../img/wave.svg);
+    filter:invert(90%);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+    
+}
 
+.waves1{
+    display: block;
+    height:50px;
+    background-image: url(../img/wave.svg);
+    filter:invert(90%);
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: center center;
+    transform: rotate(180deg);
+    
+}
+
+
+#section2{
+    background-color:#E5E5E5 ;
+}
 
 /* MAIN */
 
@@ -156,7 +183,7 @@ section img, .bottom-logo img{
     width: 100%;
 }
 #section1,#section2,#section3, #section4{
-    margin: 150px 0; 
+    margin: px 0; 
 }
 
 .content-section1, .content-section2 .content-section3.content-section4{
@@ -265,6 +292,8 @@ footer {
     padding-right:15px;  
 
 }
+
+
 
 
 
