@@ -149,7 +149,6 @@ body{
 
 /* WAVES */
 .waves{
-    display: block;
     height:50px;
     background-image: url(../img/wave.svg);
     filter:invert(90%);
@@ -172,9 +171,12 @@ body{
 }
 
 
-#section2{
-    background-color:#E5E5E5 ;
+#section2, #section4{
+    background-color:#E5E5E5;
 }
+
+
+
 
 /* MAIN */
 
