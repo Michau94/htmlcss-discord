@@ -48,7 +48,7 @@ body{
 }
 
 .purple-bg{
-    background-color:purple ;
+    background-color:#ADC3FF ;
 } 
 
 /* da cambiare */
@@ -80,12 +80,12 @@ body{
     margin:0 15px; 
 }
 
-#main-nav li a{
+#main-nav li a, .footer-top .col .content a{
     text-decoration: none;
     color: white;
 }
 
-#main-nav li a:hover{
+#main-nav li a:hover, .footer-top .col .content li a:hover{
     text-decoration: underline;
 }
 
@@ -146,15 +146,13 @@ body{
 
 
 /* MAIN */
-section{
-    height:600px; 
-}
 
-section img{
+
+section img, .bottom-logo img{
     width: 100%;
 }
-#section1,#section2,#section3{
-    margin: 100px 0; 
+#section1,#section2,#section3, #section4{
+    margin: 150px 0; 
 }
 
 .content-section1, .content-section2 .content-section3.content-section4{
@@ -189,6 +187,55 @@ section img{
     background-repeat: no-repeat;
     line-height: 50px;
 }
+
+
+
+/* FOOTER */
+
+footer {
+    height: 500px; 
+    background-color: #23272A ;
+    margin-top:100px; 
+    color: blanchedalmond;
+
+}
+
+.footer-top{
+    margin-top: 50px;
+}
+
+.footer-top .col:first-child {
+    width: 40%;
+}
+
+.footer-top .col{
+    width:calc(60%/4);
+}
+.col{
+    /* border: 1px solid red; */
+}
+
+.footer-top .col .content ul{
+    list-style-type: none;
+}
+
+.footer-top .col .content li {
+    margin: 10px 0; 
+}
+
+.upper {
+    padding-top: 40px;
+}
+.lower{
+    height: 100px;
+    line-height:100px;
+}
+
+
+#bottom-logo {
+    vertical-align: middle;
+}
+
 
 
 
