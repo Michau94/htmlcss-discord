@@ -57,6 +57,10 @@ body{
     background-color: black;
 }
 
+.relative{
+    position: relative;
+}
+
 
 
 /* HEADER */
@@ -234,6 +238,12 @@ footer {
 
 #bottom-logo {
     vertical-align: middle;
+}
+
+.bottom-logo-container .btn-wrap{
+   display: inline-block;
+    position: absolute;
+    right:20px;
 }
 
 
