@@ -170,9 +170,6 @@ body{
 #section2, #section4{
     background-color:#E5E5E5;
 }
-#section4{
-    height: 850px; 
-}
 
 #section1, #section3{
     margin:100px 0; 
@@ -223,6 +220,16 @@ section img, .bottom-logo img{
  .content-image4 img {
      width: 100%;
      margin: 0 auto; 
+}
+
+.download2{
+    height:150px;
+    line-height: 150px;
+    
+    
+}
+.download2 a {
+    vertical-align: middle;
 }
  
 
