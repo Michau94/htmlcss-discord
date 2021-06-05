@@ -51,8 +51,6 @@ body{
     background-color:#ADC3FF ;
 } 
 
-/* da cambiare */
-
 .black-bg{
     background-color: black;
 }
@@ -114,7 +112,6 @@ body{
     color: black;
 }
 .btn-dark{
-    /* background-color:black; */
     color: white; 
 }
 
@@ -143,7 +140,7 @@ body{
 .content-jumbo h1, .content-jumbo p {
     margin: 30px 0;
 }
-.content-jumbo :last-child {
+ .content-jumbo a:last-child  {
     margin-left:20px; 
 }
 
@@ -174,8 +171,13 @@ body{
     background-color:#E5E5E5;
 }
 #section4{
-    height: 900px;
+    height: 850px; 
 }
+
+#section1, #section3{
+    margin:100px 0; 
+}
+
 
 
 
@@ -185,9 +187,6 @@ body{
 
 section img, .bottom-logo img{
     width: 100%;
-}
-#section1,#section2,#section3, #section4{
-    margin: px 0; 
 }
 
 .content-section1, .content-section2 .content-section3.content-section4{
@@ -213,7 +212,6 @@ section img, .bottom-logo img{
     margin-right:100px; 
 }
 
-
 .content-section4 .bottom-download{
     height:50px; 
     background-image: url(../img/stars.svg);
@@ -222,17 +220,18 @@ section img, .bottom-logo img{
     background-repeat: no-repeat;
     line-height: 50px;
 }
-
-
+ .content-image4 img {
+     width: 100%;
+     margin: 0 auto; 
+}
+ 
 
 /* FOOTER */
 
 footer {
-    height: 500px; 
+    height:100%; 
     background-color: #23272A ;
-    
     color: blanchedalmond;
-
 }
 
 .footer-top{
@@ -272,13 +271,12 @@ footer {
     line-height:100px;
 }
 
-
 #bottom-logo {
     vertical-align: middle;
 }
 
 .bottom-logo-container .btn-wrap{
-   display: inline-block;
+    display: inline-block;
     position: absolute;
     right:20px;
 }
